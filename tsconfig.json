@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    // MORE INFO: https://aka.ms/tsconfig
+    // Follow the case sensitivity rules of the file system it’s running on
+    "forceConsistentCasingInFileNames": true,
+    // Assumes default exports if none are created manually
+    "allowSyntheticDefaultImports": true,
+    // Don't generate JS (rollup will do that) only export type declarations
+    "emitDeclarationOnly": true,
+    // Follow node.js rules for finding modules
+    "moduleResolution": "node",
+    // Where to place the .d.ts files
+    "declarationDir": "types",
+    // Skip type checking of default library declaration files
+    "skipLibCheck": true,
+    // Output a .d.ts file for our library types
+    "declaration": true,
+    // ECMA Script support
+    "target": "es2016",
+    // Mapping JS code back to its TS file origins for debugging
+    "sourceMap": true,
+    // Generate modern JS modules for our library
+    "module": "ESNext",
+    // Directory where the project will be generated
+    "outDir": "dist",
+    // Wide range of type checking behavior that results in stronger guarantees of program correctness
+    "strict": true,
+    // Transform JSX into React code
+    "jsx": "react",
+  }
+}
