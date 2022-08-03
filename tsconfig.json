@@ -27,5 +27,6 @@
     "strict": true,
     // Transform JSX into React code
     "jsx": "react",
+    // "baseUrl": "src",
   }
 }
