@@ -20,13 +20,22 @@
     // Mapping JS code back to its TS file origins for debugging
     "sourceMap": true,
     // Generate modern JS modules for our library
-    "module": "ESNext",
+    "module": "esnext",
     // Directory where the project will be generated
     "outDir": "dist",
-    // Wide range of type checking behavior that results in stronger guarantees of program correctness
+    // Enable all strict type-checking options
     "strict": true,
     // Transform JSX into React code
     "jsx": "react",
-    // "baseUrl": "src",
-  }
+    // Specify the root folder within your source files
+    "rootDir": "src",
+    // Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility
+    "esModuleInterop": true,
+    // Specify the base directory to resolve non-relative module names
+    "baseUrl": "src",
+  },
+  "exclude": [
+    "src/stories",
+    "**/*.stories.tsx"
+  ]
 }

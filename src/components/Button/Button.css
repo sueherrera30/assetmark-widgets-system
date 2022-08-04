@@ -1,4 +1,6 @@
-button {
-  background-color: black;
-  color: white;
+.btn {
+  border: 1px solid black;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  color: black;
 }

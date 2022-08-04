@@ -1,12 +1,14 @@
-import React from "react"
-import "./Button.css"
+// Dependencies
+import React from 'react'
 
-export interface ButtonProps {
-  label: string
-}
+// Types
+import { ButtonProps } from './Button.types'
+
+// Styles
+import './Button.css'
 
 const Button = (props: ButtonProps) => {
-  return <button>{props.label}</button>
+	return <button className='btn'>{props.label}</button>
 }
 
 export default Button
