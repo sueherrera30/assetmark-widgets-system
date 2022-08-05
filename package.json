@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/JOSEJESUSOCHOA"
   },
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Asset Mark Design System",
   "author": "Jose Jesus Ochoa Torres",
   "license": "MIT",
@@ -55,6 +55,7 @@
     "eslint-plugin-n": "^15.2.4",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-tailwindcss": "^3.6.0",
     "html-webpack-plugin": "^5.5.0",
     "husky": "^8.0.0",
     "identity-obj-proxy": "^3.0.0",
@@ -63,7 +64,7 @@
     "lint-staged": "^13.0.3",
     "postcss": "^8.4.14",
     "prettier": "2.7.1",
-    "prettier-plugin-tailwind": "^2.2.12",
+    "prettier-plugin-tailwindcss": "^0.1.13",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rollup": "^2.77.2",
@@ -80,5 +81,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@mui/base": "^5.0.0-alpha.92"
+  }
 }
