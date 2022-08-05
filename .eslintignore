@@ -1,3 +1,4 @@
 src/stories
 **/*.stories.tsx
 node_modules
+node_modules/**/*
