@@ -30,6 +30,7 @@ export default [
 		plugins: [
 			peerDepsExternal(),
 			resolve(),
+			postcss(),
 			commonjs({
 				exclude: 'node_modules',
 				ignoreGlobal: true,
@@ -37,7 +38,6 @@ export default [
 			}),
 			// commonjs(),
 			typescript({ tsconfig: './tsconfig.json' }),
-			postcss(),
 			terser(),
 		],
 	},
