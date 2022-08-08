@@ -9,7 +9,7 @@ import { ButtonProps } from './Button.types'
 import './Button.css'
 
 const Button = (props: ButtonProps) => (
-	<ButtonUnstyled className='btn relative flex cursor-pointer items-center justify-center whitespace-nowrap border-2 px-6 text-sm'>
+	<ButtonUnstyled className='btn relative flex cursor-pointer items-center justify-center whitespace-nowrap border-4 px-6 text-sm'>
 		{props.label}
 	</ButtonUnstyled>
 )
