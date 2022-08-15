@@ -1,6 +1,6 @@
 // Dependencies
-import React from 'react'
 import ButtonUnstyled from '@mui/base/ButtonUnstyled'
+import * as React from 'react'
 
 // Types
 import { ButtonProps } from './Button.types'
@@ -9,7 +9,7 @@ import { ButtonProps } from './Button.types'
 import './Button.css'
 
 const Button = (props: ButtonProps) => (
-	<ButtonUnstyled className='btn relative flex cursor-pointer items-center justify-center whitespace-nowrap border-4 px-6 text-sm'>
+	<ButtonUnstyled className="flex items-center justify-center rounded-md border border-transparent bg-brand-button-accent px-4 py-3 text-base font-medium text-brand-inverted shadow-sm hover:bg-brand-button-accent-hover sm:px-8">
 		{props.label}
 	</ButtonUnstyled>
 )
