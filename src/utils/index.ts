@@ -1,2 +1,2 @@
-const theme = require('./theme.js')
+const theme = require('./')
 export default theme

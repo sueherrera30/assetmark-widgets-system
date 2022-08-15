@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 
-// const theme = require('./src/utils/theme')
 const theme = require('./src/utils/theme')
 
 module.exports = {

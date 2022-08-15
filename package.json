@@ -3,7 +3,7 @@
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com/JOSEJESUSOCHOA"
 	},
-	"version": "0.0.6",
+	"version": "0.0.8",
 	"description": "Asset Mark Design System",
 	"author": "Jose Jesus Ochoa Torres",
 	"license": "MIT",
